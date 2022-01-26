@@ -1,0 +1,5 @@
+<label for="barcodes">Barcodes: (separated by newlines)</label>
+<br>
+<Textarea id="barcodes" @value={{mut this.barcodes}} />
+<br>
+<button type="button" name="button" {{on "click" this.onRenderBarcodes}}>Render these barcodes!</button>
